@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandam Dinesh's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #28edbc; /* Updated background color */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to bottom, #2bc9ed, #007ACC);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .about {
+            margin: 20px 0;
+        }
+
+        .portfolio-item {
+            margin: 20px 0;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .portfolio-item h3 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #007ACC;
+        }
+
+        .portfolio-item p {
+            color: #777;
+        }
+
+        footer {
+            background-color: #007ACC;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nandam Dinesh</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio website. I'm Nandam Dinesh, a web developer passionate about creating elegant and functional websites.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 1">
+                <h3>Project 1: Personal Website</h3>
+                <p>A personal website showcasing my skills and projects. It includes a blog section and a portfolio gallery.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Project 2">
+                <h3>Project 2: E-commerce Store</h3>
+                <p>An e-commerce website I developed for a client. It features product listings, shopping cart, and online payment integration.</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+
+        <section id="contact" class="about">
+            <h2>Contact Me</h2>
+            <p>You can reach me at <a href="mailto:nandamdinesh@gmail.com">nandamdinesh@gmail.com</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Nandam Dinesh</p>
+    </footer>
+</body>
+</html>
