@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Homepage</title>
+    <style>
+        body {
+            background-color: #26a4ed;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px 0;
+            color: #ffffff;
+        }
+        
+        .logo img {
+            width: 100px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        
+        .hero {
+            background-image: url("https://e1.pxfuel.com/desktop-wallpaper/359/804/desktop-wallpaper-marvel-mcu-movie-collage-poster-marvel-entertainment-thumbnail.jpg");
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 0;
+        }
+        
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+            padding-bottom: 20px;
+            color: white; /* White color for the text */
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        .cta-button {
+            background-color: #121212;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .cta-button:hover {
+            background-color: #c41414;
+        }
+        
+        .trending {
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .movie-card img {
+            width: 200px;
+            border-radius: 8px;
+            margin: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="https://about.netflix.com/images/logo.png" alt="Netflix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <button class="cta-button">Watch Free For 30 Days</button>
+        </div>
+    </section>
+
+    <!-- Trending Movies Section -->
+    <section class="trending">
+        <h2>Trending Movies</h2>
+        <div class="movie-card">
+            <img src="https://e0.pxfuel.com/wallpapers/272/855/desktop-wallpaper-midnight-city-lofi-hip-hop-mix-sad-lofi-mix-focus-music-thumbnail.jpg" alt="Movie Title 1">
+        </div>
+        <div class="movie-card">
+            <img src="https://e0.pxfuel.com/wallpapers/178/544/desktop-wallpaper-movie-poster-2019-john-wick-3-thumbnail.jpg" alt="Movie Title 2">
+        </div>
+        <div class="movie-card">
+            <img src="https://e0.pxfuel.com/wallpapers/224/278/desktop-wallpaper-nobody-loves-me-sad-lofi-mix-lofi-couple-thumbnail.jpg" alt="Movie Title 3">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Netflix</p>
+    </footer>
+</body>
+</html>
+
